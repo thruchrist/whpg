@@ -233,3 +233,20 @@ footer {
     text-decoration: underline;
     color: yellow;
 }
+
+/* RESPONSIVE SETTING FOR MOBILE DEVICES */
+@media (max-width: 768px) {
+    /* Adjust font size for screens with a max width of 768px */
+    body {
+        font-size: 16px;
+    }
+}
+@media (max-width: 768px) {
+    /* Adjust header and footer styles for smaller screens */
+    header {
+        padding: 10px;
+    }
+    footer {
+        padding: 10px;
+    }
+}
