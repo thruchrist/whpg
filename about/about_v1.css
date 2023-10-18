@@ -1,0 +1,90 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and font styles to the whole page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style the header title */
+header h1 {
+    font-size: 36px;
+    color: white
+}
+
+/* Style the navigation menu */
+nav ul {
+    background-color: #444;
+    list-style: none;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #00FF00;
+    font-weight: bold;
+}
+
+/* Style the main content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the sections */
+section {
+    margin-bottom: 20px;
+    padding: 0 5px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Add hover effect to navigation links */
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* paragraph styles.css */
+p {
+  color: #333;      /* Text color */
+  font-size: 16px;  /* Font size */
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
