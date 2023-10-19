@@ -239,7 +239,7 @@ footer {
 .slider {
     overflow: hidden;
     position: relative;
-    margin-top: 15px;
+    margin-top: 25px;
     max-width: 800px; /* Set the fixed width */
 }
 
