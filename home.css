@@ -71,8 +71,8 @@ header-title {
 h1 {
   font-family: Arial, sans-serif;
   text-align: center;
-  margin-bottom: 230px;
-  margin-top: -10px;
+  margin-bottom: 10px;
+  margin-top: 0px;
   animation-name: colorChange;
   animation-duration: 15s;
   animation-iteration-count: infinite;  
