@@ -233,6 +233,32 @@ footer {
     color: yellow;
 }
 
+/* ===========SLIDING IMAGES SETTING=========== */
+/* styles.css */
+
+.slider {
+    overflow: hidden;
+    position: relative;
+    margin-top: 15px;
+    max-width: 800px; /* Set the fixed width */
+}
+
+.slide-container {
+    max-width: 800px; /* Occupy the full width of the slider */
+    display: flex;
+    transition: transform 0.5s;
+}
+
+.slide {
+    flex: 0 0 20%; /* Each slide takes up the full width */
+    max-width: 100%; /* Ensure the slide doesn't exceed the fixed width */
+}
+
+.slide img {
+    width: 100%;
+    max-width: 800px; /* Ensure the image doesn't exceed the fixed width */
+}
+
 /* RESPONSIVE SETTING FOR MOBILE DEVICES 
 @media (max-width: 768px) {
     /* Adjust font size for screens with a max width of 768px */
