@@ -10,7 +10,7 @@ body {
     background-color: #f2f2f2;
     margin: 0 auto; /* Center the content horizontally */
     padding: 0;
-    text-align: justify;
+    /*text-align: justify; */
     max-width: 800px; /* Set a maximum width for the content */
     font-size: 17px;    
 }
