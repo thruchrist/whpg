@@ -16,7 +16,7 @@ function showSlides() {
     const containerWidth = slideContainer.offsetWidth; // Get the width of the slide container
     
     // Calculate the position to slide the container
-    const newPosition = -(slideIndex * slideWidth);
+    const newPosition = (slideIndex * slideWidth);
     
     if (Math.abs(newPosition) > containerWidth) {
         slideIndex = 0; // Reset to the first slide when the last slide goes out of view
